@@ -66,6 +66,7 @@ nav{
     width: 0;
     height: 2px;
     background: linear-gradient(90deg, #efedf2, #c7cccd);
+    
 }
 
 .nav-links a:hover {
