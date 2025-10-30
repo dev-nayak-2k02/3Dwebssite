@@ -238,3 +238,13 @@ nav{
     background-color: #ffffff;
 }
 
+.cta-button:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+    outline: 2px solid #ffffff;
+    box-shadow: 4px 5px 17px -4px #ffffff;
+}
+
+.cta-button::before{
+    
+}
