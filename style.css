@@ -246,5 +246,18 @@ nav{
 }
 
 .cta-button::before{
-    
+    content: '';
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #000000;
+    transform: skew(45deg);
+    z-index: -1;
+    transition: width 1000ms;
+}
+
+.cta-button:hover::before {
+    width: 250%;
 }
