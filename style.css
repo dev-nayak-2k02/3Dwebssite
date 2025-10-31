@@ -363,6 +363,16 @@ nav{
     }
 
     .hero-right{
-        
+        height: 500px;
+    }
+}
+
+@media(max-width: 480px){
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    .hero-left h1 {
+        font-size: 2rem;
     }
 }
