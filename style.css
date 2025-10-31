@@ -261,3 +261,25 @@ nav{
 .cta-button:hover::before {
     width: 250%;
 }
+
+.arrow-right {
+    margin-left: 0.5rem;
+    transition: transform 0.3s ease;
+}
+
+.cta-button:hover .arrow-right {
+    transform: translateX(5px);
+}
+
+.hero-right {
+    height: 600px;
+    position: relative;
+    animation: fadeInRight 1s ease-out;
+}
+
+@keyframes fadeInRight{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+}
