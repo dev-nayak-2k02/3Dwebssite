@@ -375,4 +375,13 @@ nav{
     .hero-left h1 {
         font-size: 2rem;
     }
+
+    .hero-right{
+        height: 500px;
+    }
+
+    .cta-button {
+        width: 100%;
+    }
+    
 }
